@@ -1,4 +1,3 @@
-"use client"
 import { FileText, Braces, Code2, Github, Sparkles } from "lucide-react"
 import Link from "next/link"
 
