@@ -59,7 +59,7 @@ export default function Home() {
                 className="group relative overflow-hidden rounded-2xl border border-border bg-card p-6 transition-all duration-300 hover:border-primary hover:shadow-xl hover:shadow-primary/10 sm:p-8"
               >
                 <div
-                  className={`absolute inset-0 bg-gradient-to-br ${tool.color} opacity-0 transition-opacity duration-300 group-hover:opacity-100`}
+                  className={`absolute inset-0 bg-linear-to-br ${tool.color} opacity-0 transition-opacity duration-300 group-hover:opacity-100`}
                 />
 
                 <div className="relative">
