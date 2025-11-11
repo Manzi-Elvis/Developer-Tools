@@ -116,7 +116,7 @@ export function Sidebar() {
                     }`}
                     title={isCollapsed ? item.label : undefined}
                   >
-                    <Icon className="h-5 w-5 flex-shrink-0" />
+                    <Icon className="h-5 w-5 shrink-0" />
                     {!isCollapsed && (
                       <>
                         <span className="flex-1">{item.label}</span>
