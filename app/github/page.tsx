@@ -131,7 +131,7 @@ export default function GitHubPage() {
             >
               <div className="rounded-lg border border-border bg-card p-6">
                 <div className="flex flex-col gap-6 md:flex-row">
-                  <div className="flex-shrink-0">
+                  <div className="shrink-0">
                     <Image
                       src={user.avatar_url || "/placeholder.svg"}
                       alt={user.name || user.login}
